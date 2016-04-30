@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">marcianoAndroid</string>
+    <string name="app_bienvenido">Welcome</string>
+    <string name="btn_entrar">Enter</string>
+</resources>

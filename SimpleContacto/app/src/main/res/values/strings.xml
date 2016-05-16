@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SimpleContacto</string>
+    <string name="form_nombre">Nombre</string>
+    <string name="form_email">Correo electrónico</string>
+    <string name="form_telefono">Teléfono</string>
+    <string name="form_descripcion">Descripción</string>
+    <string name="form_fecha_nac">Fecha de Nacimiento</string>
+    <string name="pnom">nombre</string>
+    <string name="ptel">telefono</string>
+    <string name="pnac">nacimiento</string>
+    <string name="pema">email</string>
+    <string name="pdes">descripcion</string>
+    <string name="pdia">dia</string>
+    <string name="pmes">mes</string>
+    <string name="paño">año</string>
+    <string name="datos_titulo">Confirmar Datos</string>
+
+    <string name="mensajeFaltanDatos">Deb ingresar nombre y telefono</string>
+    <string name="boton_texto">Siguiente</string>
+
+
+</resources>

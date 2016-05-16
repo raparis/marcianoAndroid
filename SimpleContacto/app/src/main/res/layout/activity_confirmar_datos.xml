@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.rapariscode.simplecontacto.ConfirmarDatos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitulo"
+        android:text="@string/datos_titulo"
+        android:textSize="@dimen/size_titulo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margen_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/form_nombre"/>
+
+        <TextView
+            android:id="@+id/tvDatosNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafael Paris"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margen_superior2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblNacimiento"
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/form_fecha_nac"/>
+
+        <TextView
+            android:id="@+id/tvDatosFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Rafael Paris"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margen_superior2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblTelefono"
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/form_telefono"/>
+
+        <TextView
+            android:id="@+id/tvDatosTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="0412-2335576"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margen_superior2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/form_email"/>
+
+        <TextView
+            android:id="@+id/tvDatosEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="raparis"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margen_superior2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblDesc"
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/form_descripcion"/>
+
+        <TextView
+            android:id="@+id/tvDatosDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_descripcion"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/margen_superior"
+        android:theme="@style/miRaisedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Datos"
+        android:onClick="editarDatos" />
+
+</LinearLayout>
